@@ -1,20 +1,122 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-.bannner-div-one{
-    margin: 4%;
+.bannner-div-one {
+    /* margin: 4%; */
     position: relative;
+    text-align: center;
 }
-.first-text{
+
+.first-text-one {
     position: absolute;
-    top: 17px;
-    left: 50px;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 250%;
 }
-.para-text{
+
+.first-text-two {
     position: absolute;
-    bottom: 20px;
-    left: 10px;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 250%;
+}
+
+.para-text {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 105%;
+    font-weight: bold;
+}
+
+.banner-img {
+    width: 100%;
+    padding: auto;
+    margin: auto;
+}
+
+.banner-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(17, 36, 8), rgb(67, 79, 69));
+    padding: 10px 17px;
+    border-radius: 7px;
+    font-weight: 600;
+    color: rgb(233, 233, 233);
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-one {
+    text-align: center;
+    font-size: 220%;
+    /* color: ; */
+}
+
+.description-text {
+    text-align: center;
+    font-size: 130%;
+    margin: 0;
+    padding: 0;
+}
+
+.demo-money-box {
+    width: auto;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 10px 10px 40px slategray;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+}
+
+.colorful {
+    border: 1px solid tomato;
+    box-shadow: inset 0px 0px 35px 0px tomato;
+}
+
+.money-donate-div {
+    margin: auto;
+    width: 45%;
+    padding-bottom: 60px;
+}
+
+.money-donate {
+    width: 80%;
+    display: inline-block;
+    padding: 10px 16px;
+    border-bottom: 2px solid black;
+    text-align: center;
+    margin: 23px 0;
+}
+
+.donate-button {
+    margin: 10px 0;
+    text-decoration: none;
+    padding: 18px 28px;
+    border-radius: 3px;
+    font-weight: 700;
+    color: #fedddd;
+    background-color: #272727;
+}
+
+.footer-section {
+    text-align: center;
+    text-shadow: 1px 1px rgb(209, 217, 225);
+    background-color: #272727;
+    color: beige;
+    padding: 10px;
 }
