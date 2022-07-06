@@ -15,7 +15,7 @@ body {
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: black;
+    color: white;
     font-size: 250%;
 }
 
@@ -24,7 +24,7 @@ body {
     top: 18%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: black;
+    color: white;
     font-size: 250%;
 }
 
@@ -33,7 +33,7 @@ body {
     top: 28%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: black;
+    color:white;
     font-size: 105%;
     font-weight: bold;
 }
@@ -42,16 +42,16 @@ body {
     width: 100%;
     padding: auto;
     margin: auto;
-    object-fit: cover;
+    background-size: cover;
 }
 
 .banner-button {
     text-decoration: none;
-    background-image: linear-gradient(rgb(17, 36, 8), rgb(67, 79, 69));
+    background-image: linear-gradient(bisque, bisque);
     padding: 10px 17px;
     border-radius: 7px;
     font-weight: 600;
-    color: rgb(233, 233, 233);
+    color: black;
     position: absolute;
     top: 43%;
     left: 50%;
@@ -92,7 +92,7 @@ body {
 }
 #my-update-button{
     text-decoration: none;
-    color: rgb(233, 233, 233);
+    color: rgb(31, 28, 28);
     border-radius: 7px 7px 7px 7px;
     background-color: tomato;
     text-align: center;
@@ -148,13 +148,13 @@ body {
 
 .donate-button {
     text-decoration: none;
-    background-image: linear-gradient(rgb(17, 36, 8), rgb(67, 79, 69));
+    background-image: linear-gradient(tomato, chocolate);
     padding: 10px 17px;
     border-radius: 7px;
     font-weight: 600;
-    color: rgb(233, 233, 233);
+    color: rgb(30, 32, 34);
     position: absolute;
-    top: 216%;
+    top: 209%;
     left: 49%;
     transform: translate(-50%, -50%);
 }
@@ -190,10 +190,53 @@ body {
 }
 .food{
     background-color: rgb(216, 231, 226);
+    border-left: 7px solid rgb(149, 201, 184);
 }
 .shelter{
     background-color: rgb(241, 213, 218);
+    border-left: 7px solid rgb(217, 167, 184);
 }
 .edu{
     background-color: antiquewhite;
+    border-left: 7px solid rgb(224, 198, 166);
+}
+
+.flexible-container{
+    display: flex;
+    margin-bottom: 135px;
+}
+
+.extra{
+    background-color: rgb(229, 229, 215);
+    padding: 22px 18px 18px 22px;
+    margin: 20px 22px 22px 20px;
+}
+
+.situation{
+    width: 50%;
+    padding-left: 4%;
+}
+.situation img{
+    width: 100%;
+    padding: auto;
+    margin: auto;
+}
+.situation-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 17px;
+    border-radius: 7px;
+    font-weight: 600;
+    color: rgb(81, 48, 115);
+}
+.situation-header{
+    font-size: 48px;
+    color: #272727;
+}
+.situation-para{
+    font-size: 20px;
+    color: #272727
+}
+.colorrr{
+    color: #272727;
 }
