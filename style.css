@@ -77,17 +77,18 @@ body {
 }
 
 .my-update-inpt{
-    width: 49%;
+    width: 40%;
     display: block;
-    padding: 1rem 2rem 2rem 30rem;
-    border-bottom: 2px solid black;
+    padding: 0rem 1rem 1rem 27rem;
+    /* border-bottom: 2px solid black; */
     text-align: center;
+    border: 2px solid white;
 }
 .two-in-one{
     display: flex;
     background-color: bisque;
-    margin: 5px 7px 15px 12px;
-    padding: 10px 12px 14px 16px;
+    margin: 32px 25px 25px 22px;
+    padding: 60px 55px 54px 56px;
 }
 #my-update-button{
     text-decoration: none;
@@ -164,4 +165,35 @@ body {
     background-color: #272727;
     color: beige;
     padding: 10px;
+}
+
+.plan-header{
+    text-align: center;
+    font-size: 220%;
+}
+.plan-para{
+    text-align: center;
+    font-size: 130%;
+}
+
+.box{
+    width: 20%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 10px 10px 40px slategray;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+}
+.food{
+    background-color: rgb(216, 231, 226);
+}
+.shelter{
+    background-color: rgb(241, 213, 218);
+}
+.edu{
+    background-color: antiquewhite;
 }
