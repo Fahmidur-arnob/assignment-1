@@ -168,6 +168,7 @@ body {
 }
 
 .plan-header{
+    margin-top: 50px;
     text-align: center;
     font-size: 220%;
 }
@@ -187,6 +188,18 @@ body {
     border-radius: 8px;
     text-align: center;
     display: inline-block;
+    position: relative;
+}
+.box img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.box h3{
+    text-align: left;
+}
+.box p{
+    text-align: left;
 }
 .food{
     background-color: rgb(216, 231, 226);
